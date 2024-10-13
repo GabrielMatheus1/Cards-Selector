@@ -1,0 +1,42 @@
+@media(max-width: 750px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .adventure-time {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .cartao{
+        max-width: 300px;
+    }
+    .cartao .cartao-informacao {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+    .cartao .cartao-informacao h3 {
+        font-size: 16px;
+    }
+    .cartao .cartao-top img {
+    margin-left: 15px;
+    }
+    .listagem {
+        max-width: 450px;
+    }
+    .listagem .aventure {
+        width: 38%;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+    .listagem ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+    .listagem .aventure span {
+        font-size: 16px;
+        text-align: center;
+    }
+}
