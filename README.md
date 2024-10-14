@@ -1,6 +1,6 @@
 # *CARDS SELECTOR*
 
-Este Projeto com interatividade, no estilo de cartas inspirado no desenho Hora de Aventura. 
+Este Projeto com interatividade, no estilo de cartas inspirado no desenho Hora de Aventura. (Apenas alguns personagens do desenho)
 
 os materiais usados para desenvolver esse projeto foram;
 
