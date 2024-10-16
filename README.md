@@ -1,6 +1,7 @@
 # *CARDS SELECTOR*
 
 Este Projeto com interatividade, no estilo de cartas inspirado no desenho Hora de Aventura (Apenas alguns personagens do desenho), alterei o cursor do mouser par uma espadinha.
+
 os materiais usados para desenvolver esse projeto foram;
 
 > Live de imersão [Dev em Dobro](https://www.youtube.com/@DevemDobro);
