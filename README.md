@@ -1,13 +1,32 @@
-# *CARDS SELECTOR*
+# ⚔️ Hora de Aventura - Seletor de Personagens
 
-Este Projeto com interatividade, no estilo de cartas inspirado no desenho Hora de Aventura (Apenas alguns personagens do desenho), alterei o cursor do mouser par uma espadinha.
+Este é um projeto interativo desenvolvido para praticar a manipulação do DOM (Document Object Model) e estilização avançada com CSS. O usuário pode navegar entre diferentes personagens do desenho "Hora de Aventura", visualizando suas descrições e artes em destaque.
 
-os materiais usados para desenvolver esse projeto foram;
+🚀 **[Clique aqui para testar o projeto ao vivo](https://gabrielmatheus1.github.io/Adventure-Time-Selector/)**
 
-> Live de imersão [Dev em Dobro](https://www.youtube.com/@DevemDobro);
+## 🛠️ Tecnologias Utilizadas
 
+O projeto foi construído utilizando o trio fundamental do desenvolvimento web front-end:
 
-> link para a [pagina hospedada gratuita no GitHub](https://gabrielmatheus1.github.io/Cards-Selector/).
+* **HTML5**: Estruturação semântica do conteúdo.
+* **CSS3**: Estilização, layout Flexbox e efeitos de transição/hover/keyframes.
+* **JavaScript (JS)**: Lógica de troca de classes e atualização dinâmica das informações dos personagens.
 
+## ✨ Funcionalidades
 
-Espero que goste fico feliz por receber feedback de sujestões e criticas, isso me ajudara a desenvolver melhor meus futuros projetos.
+- **Seleção Dinâmica**: Ao clicar em um personagem da lista, a imagem principal e o texto de descrição são atualizados instantaneamente.
+- **Feedback Visual**: Efeitos de brilho e escala nos cards para indicar qual personagem está selecionado.
+- **Design Responsivo**: Adaptado para diferentes tamanhos de tela.
+
+## 📸 Demonstração
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/615faf9e-ba00-4549-bf83-52a5a2ec00be" 
+         autoplay 
+         loop 
+         muted 
+         playsinline 
+         width="100%">
+  </video>
+</div>
+
