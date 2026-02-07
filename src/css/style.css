@@ -181,7 +181,8 @@ main {
     max-width: 300px;
     margin-top: -8px;
     max-height: 650px;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
             
     .aventure {
         background: gray;
