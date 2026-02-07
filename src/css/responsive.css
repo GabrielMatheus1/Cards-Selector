@@ -1,42 +1,72 @@
 @media(max-width: 750px) {
-    body{
+    body {
         overflow-x: hidden;
         overflow-y: scroll;
     }
+
     .adventure-time {
         flex-direction: column;
         align-items: center;
         padding: 30px 0;
+
+        .cartao {
+            max-width: 300px;
+            height: 10%;
+            max-height: 600px;
+
+            .cartao-top img {
+                margin-left: 15px;
+                height: 250px !important;
+            }
+
+            .cartao-informacao {
+                padding: 20px 30px 30px;
+                margin-top: -50px;
+                height: 250px;
+
+                .descricao {
+                    max-height: 100px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+
+        }
+
     }
-    .cartao{
-        max-width: 300px;
-    }
-    .cartao .cartao-informacao {
-        padding: 60px 30px 30px;
-        margin-top: -50px;
-    }
-    .cartao .cartao-informacao h3 {
-        font-size: 16px;
-    }
-    .cartao .cartao-top img {
-    margin-left: 15px;
-    }
+
+
     .listagem {
-        max-width: 450px;
+        max-width: 100vw;
+
+        ul {
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            flex-wrap: nowrap;
+            gap: 7px;
+            width: 100vw;
+            overflow: auto;
+            padding: 10px 40px;
+
+            .aventure {
+                min-width: 150px;
+                height: 60px;
+                border-radius: 10px;
+                margin-bottom: 0;
+
+                span {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
     }
-    .listagem .aventure {
-        width: 38%;
-        border-radius: 10px;
-        margin-bottom: 0;
-    }
-    .listagem ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 7px;
-    }
-    .listagem .aventure span {
-        font-size: 16px;
-        text-align: center;
-    }
+
+}
+
+.aventure:hover {
+    transform: scale(1.1) !important;
 }
